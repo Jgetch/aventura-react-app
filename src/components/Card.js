@@ -3,6 +3,13 @@ import React from "react";
 function Card(props) {
   return (
     <div className="card">
+     {props.openSpots === 0 && <div className="sold-out">
+        SOLD OUT
+      </div>}
+      {props.openSpots === 1 && <div className="sold-out">
+        LAST ONE
+      </div>}
+   
       <img
         className="card--image"
         src={`./assets/card-images/${props.img}`}

@@ -3,7 +3,7 @@ import React from "react";
 function Hero() {
   return (
     <section className="hero">
-      <img className="hero--tiles" src="../assets/tiles.png" />
+      <img className="hero--tiles" src="../assets/tiles.png" alt="titles" />
 
       <h1 className="hero--header">Aventura Experiences</h1>
       <p className="hero--text-p1">

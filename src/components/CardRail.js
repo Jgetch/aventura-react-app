@@ -3,7 +3,8 @@ import Card from "./Card";
 import mockData from "../mockData";
 
 function CardRail() {
-  const cards = mockData.map((mockDataItem) => {
+
+  const cardElements = mockData.map((mockDataItem) => {
     return (
       <Card
         key={mockDataItem.id}
@@ -14,11 +15,12 @@ function CardRail() {
         location={mockDataItem.location}
         title={mockDataItem.title}
         price={mockDataItem.price}
+        openSpots={mockDataItem.openSpots}
       />
     );
   });
 
-  return <section className="card--list">{cards}</section>;
+  return <section className="card--list">{cardElements}</section>;
 }
 
 export default CardRail;
