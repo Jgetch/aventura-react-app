@@ -1,15 +1,14 @@
-import "./App.css";
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import CardElements from "./components/CardElements";
+import CardRail from "./components/CardRail";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      <CardElements />
+      <CardRail />
     </div>
   );
 }
