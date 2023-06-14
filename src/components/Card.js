@@ -1,15 +1,23 @@
 import React from "react";
 
 function Card(props) {
+
+  let badgeText = ""
+  if (props.openSpots === 0) {
+    badgeText = "SOLD OUT"
+  }else if (props.openSpots === 1) {
+     badgeText = "ONE SPACE LEFT"
+  }else if (props.openSpots <= 3 ) {
+  badgeText = "LAST FEW SPACES"
+}
+
+let badgeElement = ""
+if (badgeText) {
+  badgeElement = <div className="sold-out">{badgeText}</div>;
+}
   return (
     <div className="card">
-     {props.openSpots === 0 && <div className="sold-out">
-        SOLD OUT
-      </div>}
-      {props.openSpots === 1 && <div className="sold-out">
-        LAST ONE
-      </div>}
-   
+      {badgeElement}
       <img
         className="card--image"
         src={`./assets/card-images/${props.img}`}

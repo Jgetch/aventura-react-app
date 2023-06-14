@@ -38,6 +38,8 @@ section {
 }
 
 .hero--tiles {
+  padding-top: 30px;
+  border-radius: 30%;
   max-width: 100%;
   min-width: 80%;
   display: flex;
