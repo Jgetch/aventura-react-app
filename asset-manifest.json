@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.9622486e.css",
-    "main.js": "/static/js/main.3aaa8f68.js",
-    "index.html": "/index.html",
-    "main.9622486e.css.map": "/static/css/main.9622486e.css.map",
-    "main.3aaa8f68.js.map": "/static/js/main.3aaa8f68.js.map"
+    "main.css": "/aventura-react-app/static/css/main.9622486e.css",
+    "main.js": "/aventura-react-app/static/js/main.3aaa8f68.js",
+    "index.html": "/aventura-react-app/index.html",
+    "main.9622486e.css.map": "/aventura-react-app/static/css/main.9622486e.css.map",
+    "main.3aaa8f68.js.map": "/aventura-react-app/static/js/main.3aaa8f68.js.map"
   },
   "entrypoints": [
     "static/css/main.9622486e.css",
