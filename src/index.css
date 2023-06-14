@@ -39,7 +39,6 @@ section {
 
 .hero--tiles {
   padding-top: 30px;
-  border-radius: 30%;
   max-width: 100%;
   min-width: 80%;
   display: flex;
@@ -51,17 +50,20 @@ section {
 
 .hero--header {
   margin-bottom: 5px;
-  font-size: 40px;
+  font-size: 30px;
+  text-align: center;
 }
 
 .hero--text-p1 {
   margin-top: 0px;
   font-size: 20px;
+  text-align: center;
 }
 
 .hero--text-p2 {
   margin-top: 0px;
   font-size: 20px;
+  text-align: center;
 }
 
 /* CARD COMPONENT STYLING -------- */
